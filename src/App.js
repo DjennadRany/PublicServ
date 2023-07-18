@@ -2,6 +2,7 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import './App.css';
 import L from 'leaflet';
 
 import customIconUrl from './assets/img/marker-icon-green.png'; // Make sure 'custom-icon.png' is in the 'src' folder
@@ -37,7 +38,7 @@ function App() {
     <div className="App">
       <h1>Contrôlez et fiabilisez les adresses</h1>
 
-      <MapContainer center={position} zoom={13} style={{ height: '500px', width: '100%' }}>
+      <MapContainer center={position} zoom={13} style={{ height: '600px', width: '100%' }}>
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
         {/* Display points of interest on the map */}
