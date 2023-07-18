@@ -1,3 +1,33 @@
+# Application de Géolocalisation des Services
+
+## Description
+
+Cette application de géolocalisation des services permet aux utilisateurs de rechercher et de visualiser différents points d'intérêt tels que les commissariats de police, les hôpitaux et les prestations sociales sur une carte interactive. L'application utilise les API de La Poste pour la recherche d'adresses et OpenStreetMap pour l'affichage de la carte.
+
+## Fonctionnalités
+
+- Recherche d'adresses avec l'API de La Poste pour afficher les résultats sur la carte.
+- Affichage des commissariats de police, des hôpitaux et des prestations sociales sur la carte avec des marqueurs personnalisés.
+- Popovers pour afficher les informations détaillées de chaque point d'intérêt lorsqu'on clique sur un marqueur.
+- Utilisation de Leaflet pour la gestion de la carte et des marqueurs.
+- Interface utilisateur conviviale avec une barre de recherche pour entrer des adresses.
+
+## Configuration requise
+
+- Node.js
+- React
+
+## Installation
+
+1. Clonez le dépôt Git sur votre machine locale.
+2. Installez les dépendances en exécutant la commande suivante dans le dossier du projet :
+
+### `npm Install`
+
+### `node server.js`
+
+### `npm start`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
